@@ -12,9 +12,82 @@
 /* nav style */
 nav{
     display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
 }
 .nav-title{
     font-weight:bolder;
     font-size: 45px;
 
 }
+
+/* removing underline and dot from list */
+nav ul li{
+  list-style:none;
+  margin-right:50px;
+  
+}
+nav ul li a{
+  text-decoration:none;
+  font-size:20px;
+
+}
+/* Rong-mistri:the color maker */
+.dark-2{
+  color: #474747;
+.dark-1{
+  color:#181818;
+}
+.dark-3{
+  color:#757575;
+}
+
+}
+nav ul{
+  display:flex;
+  align-items:center;
+  
+}
+/* button design */
+.btn-primary{
+  background-color:#FD6E0A;
+  font-weight:bold;
+  color:white;
+  padding:18px 36px;
+  border-radius:5px;
+  border: none;
+
+}
+
+/* banner design */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin:0 35px 0 200px;
+  
+}
+.banner-content{
+  max-width:584px;
+  
+  
+
+}
+.banner-greetings{
+ font-size:45px;
+ font-weight:600;
+}
+  .banner-title{
+    font-size:85px;
+    font-weight:bold;
+  }
+  .banner-description{
+    font-size:18px;
+    font-weight:400;
+  }
+  /* .banner-background-img */
+  .header{
+background-image: url('../images/developer.png'), url('../images/header_bg.png');
+background-repeat:no-repeat;
+background-position:bottom right;
+  }
