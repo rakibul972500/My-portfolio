@@ -145,7 +145,7 @@ background-position:bottom right;
   }
   .resume-container{
     display:flex;
-    gap:24px
+    gap:200px;
   }
   .experience-description,.experience-subtitle{
     color:#757575;
@@ -164,3 +164,20 @@ background-position:bottom right;
     font-size:30px;
     font-weight:bold;
   }
+  .btn-margin{
+    margin-top: 50px;
+    margin-bottom:50px;
+  }
+  /* footer style */
+footer{
+  padding:130px 230px;
+  display:flex;
+  gap:120px;
+}
+
+footer input[type="text"],footer input[type="email"], footer input[type="textarea"]{
+  width:100%;
+  height:64px;
+  margin-bottom: 24px;
+}
+  
